@@ -22,6 +22,11 @@
                 <default>false</default>
                 <label>Closed</label>
             </value>
+            <value>
+                <fullName>On_Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
