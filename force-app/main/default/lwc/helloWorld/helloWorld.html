@@ -1,0 +1,18 @@
+<!--
+  @description       : 
+  @author            : Ed Elliott
+  @group             : 
+  @last modified on  : 06-13-2023
+  @last modified by  : Ed Elliott 
+  Modifications Log
+  Ver   Date         Author       Modification
+  1.0   06-13-2023   Ed Elliott   Initial Version
+-->
+<template>
+    <lightning-card title="HelloWorld" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+        <p>Hello, {greeting}!</p>
+        <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+        </div>
+    </lightning-card>
+</template>
