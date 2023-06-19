@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : Ed Elliott
+  @group             : 
+  @last modified on  : 06-14-2023
+  @last modified by  : Ed Elliott
+  Modifications Log
+  Ver   Date         Author       Modification
+  1.0   06-14-2023   Ed Elliott   Initial Version
+-->
+<template>
+    <div style="height: 500px;">
+        <template if:true={trackingList}>
+             <lightning-datatable
+                     key-field="id"
+                     data={trackingList}
+                     columns={columns}>
+             </lightning-datatable>
+        </template>
+    </div>
+</template>
